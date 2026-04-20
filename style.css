@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Navbar Section */
+
+.navbar {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-container {
+    width: 90%;
+    max-width: 1100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 12px 25px;
+
+    border-radius: 20px;
+
+    background: #ffffffcc;
+    backdrop-filter: blur(10px);
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.nav-container img {
+    width: 40px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #ff5a3c;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-text span {
+    color: #1e293b;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #334155;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff5a3c;
+}
+
+.nav-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.login {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    background: #f1f5f9;
+    cursor: pointer;
+}
+
+.signup {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    background: #ff5a3c;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* Hero Section */
+
+.hero {
+    min-height: 100vh;
+    padding: 0 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+
+    background-image: url(assets/images/background-img.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-content {
+    width: 45%;
+
+    animation: fadeUp 1s ease;
+}
+
+.hero-content h1 {
+    margin-bottom: 20px;
+
+    font-size: 3rem;
+    color: #1e293b;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+.hero-content p {
+    margin-bottom: 30px;
+    max-width: 500px;
+
+    font-size: 1rem;
+    color: #475569;
+}
+
+.hero-content span {
+    color: #ff5a3c;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    padding: 12px 20px;
+
+    border-radius: 10px;
+
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.primary {
+    background: #ff5a3c;
+    color: white;
+    box-shadow: 0 10px 20px rgba(255, 90, 60, 0.3);
+}
+
+.primary:hover {
+    background: #e14b2f;
+    transform: translateY(-2px);
+}
+
+.secondary {
+    border: 2px solid #ff5a3c;
+    color: #ff5a3c;
+}
+
+.secondary:hover {
+    background: #ff5a3c;
+    color: white;
+}
