@@ -1,0 +1,230 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-container {
+    width: 90%;
+    max-width: 1100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 12px 25px;
+
+    border-radius: 20px;
+
+    background: #ffffffcc;
+    backdrop-filter: blur(10px);
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.logo img {
+    width: 40px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #ff5a3c;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-text span {
+    color: #1e293b;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #334155;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff5a3c;
+}
+
+.nav-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.login {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    background: #f1f5f9;
+    cursor: pointer;
+}
+
+.signup {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    background: #ff5a3c;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* Topic Section */
+
+.topic-hero {
+    padding: 140px 60px 80px;
+    text-align: center;
+
+    background: linear-gradient(135deg, #ffedd5, #ffe4e6);
+}
+
+.topic-hero h1 {
+    font-size: 2.8rem;
+    color: #1e293b;
+}
+
+.topic-hero span {
+    color: #ff5a3c;
+}
+
+.topic-hero p {
+    color: #475569;
+}
+
+
+/* Quick Notes Section */
+
+.quick-notes {
+    padding: 80px 0;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(135deg, #ffedd5, #ffe4e6);
+}
+
+.notes-section {
+    padding: 40px;
+    width: 98%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    background-color: #f1f5f9;
+    border-radius: 20px;
+
+
+    color: #1e293b;
+}
+
+.notes-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.notes-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.note-card {
+    padding: 20px;
+    width: 200px;
+
+    border-radius: 16px;
+
+    background: linear-gradient(135deg, #ffffff, #f8fafc);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+
+    transition: 0.3s;
+}
+
+.note-card:hover {
+    transform: translateY(-8px) scale(1.03);
+}
+
+
+/* Detailed Section */
+
+.detail {
+    padding: 80px 0;
+
+    background: linear-gradient(135deg, #ffedd5, #ffe4e6);
+}
+
+.detail-card {
+    margin: auto;
+    padding: 30px;
+    max-width: 98%;
+
+    text-align: center;
+
+    border-radius: 20px;
+
+    background: #f8fafc;
+}
+
+
+/* Playlist Section */
+
+.playlist {
+    padding: 80px 0;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+
+    background: linear-gradient(135deg, #ffedd5, #ffe4e6);
+}
+
+.playlist-section {
+    width: 98%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    background-color: #f1f5f9;
+    border-radius: 20px;
+}
+
+.playlist-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+iframe {
+    width: 350px;
+    height: 200px;
+    border-radius: 15px;
+}
