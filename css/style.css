@@ -98,6 +98,7 @@ html {
 /* Hero Section */
 
 .hero {
+    margin-bottom: 60px;
     min-height: 100vh;
     padding: 0 60px;
 
@@ -190,6 +191,10 @@ html {
     background: linear-gradient(135deg, #fdf2f8, #ede9fe);
 }
 
+.topics span {
+    color: #ff5a3c;
+}
+
 .topics::after {
     content: "";
     position: absolute;
@@ -200,6 +205,7 @@ html {
     border-radius: 50%;
     top: 50px;
     left: -100px;
+    pointer-events: none;
 }
 
 .topics::before {
@@ -212,6 +218,7 @@ html {
     border-radius: 50%;
     bottom: 50px;
     right: -110px;
+    pointer-events: none;
 }
 
 .topics h2 {
