@@ -94,7 +94,7 @@
     padding: 140px 60px 80px;
     text-align: center;
 
-    background: linear-gradient(135deg, #ffedd5, #ffe4e6);
+    background: #FFB35C;
 }
 
 .topic-hero h1 {
@@ -121,7 +121,7 @@
     justify-content: center;
     align-items: center;
 
-    background: linear-gradient(135deg, #ffedd5, #ffe4e6);
+    background: #FFB35C;
 }
 
 .notes-section {
@@ -156,7 +156,8 @@
 }
 
 .note-card {
-    padding: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     width: 200px;
 
     border-radius: 16px;
@@ -177,7 +178,7 @@
 .detail {
     padding: 80px 0;
 
-    background: linear-gradient(135deg, #ffedd5, #ffe4e6);
+    background: #FFB35C;
 }
 
 .detail-card {
@@ -203,7 +204,7 @@
     display: flex;
     justify-content: center;
 
-    background: linear-gradient(135deg, #ffedd5, #ffe4e6);
+    background: #FFB35C;
 }
 
 .playlist-section {

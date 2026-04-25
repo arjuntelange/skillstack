@@ -94,7 +94,7 @@
     padding: 140px 60px 80px;
     text-align: center;
 
-    background: #5CCEFF;
+    background: #FDCD5D;
 }
 
 .topic-hero h1 {
@@ -110,6 +110,7 @@
     color: #475569;
 }
 
+
 /* Quick Notes Section */
 
 .quick-notes {
@@ -120,7 +121,7 @@
     justify-content: center;
     align-items: center;
 
-    background: #5CCEFF;
+    background: #FDCD5D;
 }
 
 .notes-section {
@@ -134,7 +135,8 @@
     align-items: center;
     gap: 40px;
 
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);
     border-radius: 20px;
 
@@ -177,7 +179,7 @@
 .detail {
     padding: 80px 0;
 
-    background: #5CCEFF;
+    background: #FDCD5D;
 }
 
 .detail-card {
@@ -191,7 +193,7 @@
 
     background-color: rgba(255, 255, 255, 0.2);
     border: 1px solid rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(10px);;
+    backdrop-filter: blur(10px);
 }
 
 
@@ -204,7 +206,7 @@
     display: flex;
     justify-content: center;
 
-    background: #5CCEFF;
+    background: #FDCD5D;
 }
 
 .playlist-section {
